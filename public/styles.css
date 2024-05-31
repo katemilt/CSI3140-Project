@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     font-style: normal;
   }
-  
+
   /**Left side CSS**/
   .left-box{
     float: left;
@@ -200,7 +200,7 @@ body {
     float: left;
     background-color: white;
     box-sizing: border-box;
-    height: auto;
+    height: 860px;
     width: 1180px;
     margin: 15px 15px 15px 15px;
   }
@@ -220,6 +220,19 @@ body {
   .proj-box:hover {
     background-color: rgb(226, 242, 235);
   }
+
+  .proj-img {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+.proj-img img {
+    max-width: 50%;
+    height: auto;
+    padding: 0px 0px 25px 0px;
+}
   
   ul {
     list-style: none;
