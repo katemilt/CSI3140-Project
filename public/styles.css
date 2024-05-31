@@ -187,7 +187,6 @@ body {
     margin: 15px 15px 15px 15px;
   }
   
-  /**Skills box**/
   .skills {
     float: left;
     background-color: white;
@@ -195,6 +194,31 @@ body {
     height: 145px;
     width: 850px;
     margin: 15px 15px 15px 15px;
+  }
+
+  .projects {
+    float: left;
+    background-color: white;
+    box-sizing: border-box;
+    height: auto;
+    width: 1180px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  .proj-box{
+    float: left;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #cbcccc;
+    box-sizing: border-box;
+    margin: 0px 10px 0px 0px;
+    padding: 10px 10px 0px 10px;
+    width: 975px;
+    height: auto;
+  }
+
+  .proj-box:hover {
+    background-color: rgb(226, 242, 235);
   }
   
   ul {
@@ -230,5 +254,34 @@ body {
     margin: 10px 90px 10px 0px;
     padding: 0px 101px 0px 0px;
   }
+
+.navbar {
+    background-color: #588372;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
   
   

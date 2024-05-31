@@ -1,107 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Portfolio Project</title>
      <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-  <div class="left-box">
-    <div class="top-left">
-    <img class="pic" src="images/girl.png" alt="Girl">
-    <div class="name">KAITLYN MILTIMORE</div>
-      <div class="left-box-rows">
-        <img class="objective-img" src="images/users.png">
-        <div class="left-box-text">Hello!<br>
-        </div>
-        <div class="left-box-text2">I am a student at the University of Ottawa studying Computer Science and 
-            Biochemistry. I am interested in data science, UI design, and front-end development!</div>
-      </div>
-      <div class="left-box-rows">
-        <img class="objective-img" src="images/location.png">
-        <div class="left-box-text">Ottawa, ON
-        </div>
-      </div>
-      <div class="left-box-rows">
-        <img class="objective-img" src="images/phone-call.png">
-        <div class="left-box-text">Mobile:<br>(123)456-7890
-        </div>
-      </div>
-       <div class="left-box-rows">
-        <img class="objective-img" src="images/mail.png">
-        <div class="left-box-text">Personal:<br>email@email.com
-        </div>
-      </div>
-      <div class="left-box-rows">
-        <img class="objective-img" src="images/www.png">
-        <div class="left-box-text">GitHub:<br>katemilt
-        </div>
-      </div>
-  </div>
-  </div>
 
-    <div class="work-experience">
-        <div class="box-img"> <img src="images/note.png"></div>
-        <h1 class="section-title">WORK EXPERIENCE</h1>
-        <div class="job-box">
-            <div class="box-location">Canadian Food Inspection Agency</div>
-            <div class="box-title">
-                Junior Field Crops Officer, Sep 2021 - Aug 2022
-            </div>
-            <div class="box-description">
-                <ul>
-                    <li>Entered registration information into database to maintain an up-to-date record of all current and past applications</li>
-                    <li>Corresponded with clients via email or call to discuss their applications</li>
-                    <li>Upheld company standards by ensuring timely completion of tasks</li>
-                    <li>Reviewed applications for validity and adherence to policies</li>
-                </ul>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <!-- ABOUT SECTION -->
+        <div class="left-box">
+            <div class="top-left">
+                <img class="pic" src="images/girl.png" alt="pic">
+                <div class="name">KAITLYN MILTIMORE</div>
+                <div class="left-box-rows" id="about">
+                    <img class="objective-img" src="images/person.png">
+                    <div class="left-box-text">Hello!</div>
+                    <div class="left-box-text2">I am a student at the University of Ottawa studying Computer Science and 
+                        Biochemistry. I am interested in data science, UI design, and front-end development!</div>
+                </div>
+
+                <!-- LOCATION -->
+                <div class="left-box-rows">
+                    <img class="objective-img" src="images/location.png">
+                    <div class="left-box-text">Ottawa, ON</div>
+                </div>
+
+                <!-- PHONE -->
+                <div class="left-box-rows">
+                    <img class="objective-img" src="images/phone-call.png">
+                    <div class="left-box-text">Mobile:<br>(123)456-7890</div>
+                </div>
+
+                <!-- EMAIL -->
+                <div class="left-box-rows">
+                    <img class="objective-img" src="images/mail.png">
+                    <div class="left-box-text">Personal:<br>email@email.com</div>
+                </div>
+
+                <!-- GITHUB -->
+                <div class="left-box-rows">
+                    <img class="objective-img" src="images/www.png">
+                    <div class="left-box-text">GitHub:<br>katemilt</div>
+                </div>
             </div>
         </div>
-    
-        <div class="job-box">
-            <div class="box-location">Faculty of Medicine at the University of Ottawa</div>
-            <div class="box-title">
-                Chemical Inventory Organizer, May 2021 - Aug 2021
+
+        <!-- WORK EXP. SECTION -->
+        <div class="work-experience" id="work">
+            <div class="box-img"> <img src="images/note.png"></div>
+            <h1 class="section-title">WORK EXPERIENCE</h1>
+
+            <!-- JOB 1 -->
+            <div class="job-box">
+                <div class="box-location">Canadian Food Inspection Agency</div>
+                <div class="box-title">Junior Field Crops Officer, Sep 2021 - Aug 2022</div>
+                <div class="box-description">
+                    <ul>
+                        <li>Entered registration information into database to maintain an up-to-date record of all current and past applications</li>
+                        <li>Corresponded with clients via email or call to discuss their applications</li>
+                        <li>Upheld company standards by ensuring timely completion of tasks</li>
+                        <li>Reviewed applications for validity and adherence to policies</li>
+                    </ul>
+                </div>
             </div>
-            <div class="box-description">
-                <ul>
-                    <li>Maintained a neat chemical inventory database for various labs within the university by implementing
-                        systematic updates and removal of outdated entries</li>
-                    <li>Managed accurate labeling and organization of hazardous chemicals in labs to ensure compliance with safety
-                        regulations and to facilitate quick and precise identification</li>
-                    <li>Utilized Microsoft Excel to plan and document progress with team members</li>
-                </ul>
+
+            <!-- JOB 2 -->
+            <div class="job-box">
+                <div class="box-location">Faculty of Medicine at the University of Ottawa</div>
+                <div class="box-title">Chemical Inventory Organizer, May 2021 - Aug 2021</div>
+                <div class="box-description">
+                    <ul>
+                        <li>Maintained a neat chemical inventory database for various labs within the university by implementing
+                            systematic updates and removal of outdated entries</li>
+                        <li>Managed accurate labeling and organization of hazardous chemicals in labs to ensure compliance with safety
+                            regulations and to facilitate quick and precise identification</li>
+                        <li>Utilized Microsoft Excel to plan and document progress with team members</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="education">
-        <div class="box-img"> <img src="images/school.png"></div>
-        <h1 class="section-title">EDUCATION</h1>
-        <div class="job-box">
-            <div class="box-location">University of Ottawa</div>
-            <div class="box-title">
-                Honours BSc with Double Major in Computer Science & Biochemistry<br>
-                Expected graduation: Fall 2024
+
+        <!-- EDUCATION SECTION -->
+        <div class="education" id="education">
+            <div class="box-img"> <img src="images/school.png"></div>
+            <h1 class="section-title">EDUCATION</h1>
+            <div class="job-box">
+                <div class="box-location">University of Ottawa</div>
+                <div class="box-title">Honours BSc with Double Major in Computer Science & Biochemistry<br>
+                    Expected graduation: Fall 2024</div>
             </div>
         </div>
-  </div>
-  </div>
-  <div class="skills">
-    <div class="box-img"> <img src="images/star.png">
-     </div>
-    <h1 class="section-title">SKILLS</h1>
-    <div class="job-box">
-        <div class="box-description">
-            <b>Programming:</b> Java, C/C++, Python, SQL, HTML/CSS, JavaScript, Scheme, Go, Prolog<br>
-            <b>Tools:</b> Jupyter Notebooks, Eclipse, Visual Studio, Git, PostgreSQL, AWS, Power BI, Android Studio
+
+        <!-- SKILLS SECTION -->
+        <div class="skills" id="skills">
+            <div class="box-img"> <img src="images/star.png"></div>
+            <h1 class="section-title">SKILLS</h1>
+            <div class="job-box">
+                <div class="box-description">
+                    <b>Programming:</b> Java, C/C++, Python, SQL, HTML/CSS, JavaScript, Scheme, Go, Prolog<br>
+                    <b>Tools:</b> Jupyter Notebooks, Eclipse, Visual Studio, Git, PostgreSQL, AWS, Power BI, Android Studio
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
+
+        <!-- PROJECTS SECTION -->
+        <div class="projects" id="projects">
+            <div class="box-img"> <img src="images/open-folder.png"></div>
+            <h1 class="section-title">PROJECTS</h1>
+            <div class="proj-box">
+                <div class="box-location">Hotel Booking System Web App</div>
+                <div class="box-title">Personal Project, Jan 2024 - Apr 2024</div>
+                <div class="box-description">
+                    <b>Programming:</b> Java, C/C++, Python, SQL, HTML/CSS, JavaScript, Scheme, Go, Prolog<br>
+                    <b>Tools:</b> Jupyter Notebooks, Eclipse, Visual Studio, Git, PostgreSQL, AWS, Power BI, Android Studio
+                </div>
+            </div>
+        </div>
 
     </div>
-    </body>  
+
+</body>  
