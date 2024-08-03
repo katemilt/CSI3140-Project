@@ -213,7 +213,7 @@ body {
     float: left;
     background-color: white;
     box-sizing: border-box;
-    height: 1240px;
+    height: 1545px;
     width: 1180px;
     margin: 15px 15px 15px 15px;
   }
@@ -280,5 +280,10 @@ body {
     color: black;
 }
 
+.proj-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
   
   
